@@ -6,7 +6,7 @@ Autocompile LaTex to PDF using gulp and Docker.
 - Docker
 
 ## Installation
-1. Clone this repository and move into the directory;
+1. Download this repository and move into the directory;
 2. Build the Docker image with `docker build -t texlive ./` and wait it to finish;
 3. Install the dependencies with `npm install` and wait it to finish.
 
