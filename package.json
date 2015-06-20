@@ -1,0 +1,30 @@
+{
+  "name": "latex-docker-gulp",
+  "version": "0.0.1",
+  "description": "Autocompile LaTex to PDF using gulp and docker.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run latex",
+    "latex": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://virgafox@github.com/virgafox/latex-docker-gulp.git"
+  },
+  "keywords": [
+    "latex",
+    "docker",
+    "gulp"
+  ],
+  "author": "Marco Virgadamo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/virgafox/latex-docker-gulp/issues"
+  },
+  "homepage": "https://github.com/virgafox/latex-docker-gulp#readme",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-shell": "^0.4.2"
+  }
+}
